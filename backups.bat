@@ -1,9 +1,11 @@
 @echo off
 COLOR 1f
-
+REM Место расположения архивов
 SET bupath=D:\backups2
+REM Место расположения sql файлов 
 SET sql=db
-SET host=i-server2\resto
+REM MS SQL Server host 
+SET host=localhost
 
 
 		SET dd=%DATE%

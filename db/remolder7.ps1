@@ -1,4 +1,4 @@
-$bf = D:\backups
+$bf = "D:\backups"
 $now = Get-Date
 $date = $now.AddDays(-7)
 
